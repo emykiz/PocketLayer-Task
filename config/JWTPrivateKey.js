@@ -1,1 +1,0 @@
-exports.privateKey='httpskedar';
