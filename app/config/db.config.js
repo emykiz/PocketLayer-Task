@@ -13,3 +13,5 @@ module.exports = {
     idle: 10000
   }
 };
+
+console.log(process.env.HOST, process.env.USER, process.env.PASSWORD, process.env.DB)
