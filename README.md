@@ -138,9 +138,21 @@ router.post(`api/auth/signin`)
 ## Testing Route on Localhost
 using postman - call the endpoint with a POST request
 
-`http://localhost:8080/api/auth/signup`
-`http://localhost:8080/api/auth/sigin`
 
+**signup route**
+`http://localhost:8080/api/auth/signup`
+{
+    "username": "Abbey Salami",
+    "email": "heba@gmail.com",
+    "password": "123456"
+}
+
+**signin route**
+`http://localhost:8080/api/auth/sigin`
+{
+    "username": "Abbey Salami",
+    "password": "123456"
+}
 
 These routes require a valid JWT access token in the Authorization request header using the Bearer schema. If the request does not contain a valid access token, an Unauthorized (401) error is thrown.
 
