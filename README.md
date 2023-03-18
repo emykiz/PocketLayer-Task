@@ -154,6 +154,27 @@ using postman - call the endpoint with a POST request
     "password": "123456"
 }
 
+
+
+## Testing Route on deployment
+using postman - call the endpoint with a POST request
+
+
+**signup route**
+`https://authenticat.onrender.com/api/auth/signup`
+{
+    "username": "Abbey Salami",
+    "email": "heba@gmail.com",
+    "password": "123456"
+}
+
+**signin route**
+`https://authenticat.onrender.com/api/auth/signin`
+{
+    "username": "Abbey Salami",
+    "password": "123456"
+}
+
 These routes require a valid JWT access token in the Authorization request header using the Bearer schema. If the request does not contain a valid access token, an Unauthorized (401) error is thrown.
 
 **Generating Access Tokens**:
