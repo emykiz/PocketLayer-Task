@@ -85,7 +85,7 @@ app\
 
 The app has a centralized error handling mechanism.
 
-Controllers should try to catch the errors and forward them to the error handling middleware (by calling `next(error)`). For convenience, you can also wrap the controller inside the catchAsync utility wrapper, which forwards the error.
+Controllers should try to catch the errors and forward them to the error.
 
 ```javascript
 
