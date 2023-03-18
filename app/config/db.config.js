@@ -1,8 +1,8 @@
 module.exports = {
-  HOST: "localhost",
-  USER: "root",
-  PASSWORD: "",
-  DB: "pocket_db",
+  HOST: "sql212.epizy.com",
+  USER: "epiz_33822793",
+  PASSWORD: "emediong11",
+  DB: "epiz_33822793_pocket_db",
   dialect: "mysql",
   pool: {
     max: 5,
